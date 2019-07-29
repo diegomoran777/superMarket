@@ -11,5 +11,6 @@ class CreateBd():
                     unit_price integer,
                     expiration_date date format YYYY-MM-DD ,
                     product_type varchar(1),
-                    discount varchar(50));''')
+                    discount varchar(50)),
+                    sold_products integer;''')
 print("tabla creada exitosamente")
