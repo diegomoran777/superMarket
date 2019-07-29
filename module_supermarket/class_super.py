@@ -140,14 +140,5 @@ class SuperMarket():
     def save_file(self):
         Save().save_file(self.pass_to_json())
 
-    def bla(self):
-        p="s"
-        while p=="s":
-            x="bla"
-            while x != "n":
-                x =input("desea agregar? n o cualquier para seguir")
-            p=input("desea realizar otra s o cualquiera para salir")
-        print("saliste")
-
 
 
